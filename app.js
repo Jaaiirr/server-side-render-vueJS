@@ -6,7 +6,7 @@ import { createSSRApp } from "vue";
 export function createApp() {
     return createSSRApp({
       data: () => ({ count: 1 }),
-      template: `<div @click="count++">{{ count }}</div>`,
+      template: `<div @click="count++" style="background-color:red; width:50%">{{ count }}</div>`,
     });
   }
   

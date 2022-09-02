@@ -32,6 +32,6 @@ server.get("/", (req, res) => {
 
 server.use(express.static("."));
 
-server.listen(3002, () => {
+server.listen(3003, () => {
   console.log("ready");
 });
